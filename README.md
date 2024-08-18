@@ -1,13 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This project focuses on implementing Tailwind to create a UI using tailwind classes.
 
 ## Getting Started
 
-First, run the development server:
+To get started, first clone the repo in your IDE of choice or download a copy and open the project folder. 
+
+To run the development server, use any of the following commands (this project uses yarn):
 
 ```bash
 npm run dev
 # or
-yarn dev
+yarn dev 
 # or
 pnpm dev
 # or
@@ -16,9 +18,13 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file. All code that was worked is located in this page.tsx file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Project Specifics
+
+This project focused on create, using and modifying tailwind classes. Located in the tailwind.config.ts are tailwind system changes and extensions to color, border radius, and the backgroundImage. In addition are breakpoints to help chaneg the styliing of the page based on screen size. This is used for the header as a starting point and is not implemented fully and/or correctly, but its a start. A button is also used to demonstrate an animation using tailwind. The button is using basic javascript to change text when clicked. The globals contains a color change for links when hovering over.
 
 ## Learn More
 
