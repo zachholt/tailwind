@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .link-primary {
+    @apply text-white hover:text-blue-800
+  }
+}
